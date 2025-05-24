@@ -1,4 +1,4 @@
-# IDA-AI ComprehendAI 2.0
+# IDA ComprehendAI 2.0
 对源项目地址：https://github.com/Kvancy/ComprehendAI  ComprehendAI的二次开发调试  
 环境：IDA 9.1，python3.13  
 需要将pip install openai进行安装 

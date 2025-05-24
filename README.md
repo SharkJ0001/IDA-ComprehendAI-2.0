@@ -1,24 +1,25 @@
 # IDA-AI ComprehendAI 2.0
-对ComprehendAI的二次开发调试
+对源项目地址：https://github.com/Kvancy/ComprehendAI  ComprehendAI的二次开发调试
 环境：IDA 9.1，python3.13  
 需要将pip install openai进行安装 
-源项目地址：https://github.com/Kvancy/ComprehendAI  
+需要修改的配置文件就是config.json文件，换成自己的api即可，url根据情况切换  
  
-并且下载的两个文件要放在IDApro91\plugins插件目录下  
+下载的两个文件要放在IDApro91\plugins插件目录下  
 ![image](https://github.com/user-attachments/assets/2b455f95-82be-49a6-b0b9-d550eec3cd94)
 
 这里使用的是阿里的百炼大模型，因为免费，但是病毒分析会触发阿里账号封禁，客服不给解封只会对不起，使用的时候自己注意吧。  
 ![image](https://github.com/user-attachments/assets/4eaa65b9-cb32-48ac-b20b-c8ccc1e1f3d8)
 
-原本默认的分析深度最大是2，经测试将深度调整为15后并没有深入的分析  
-故将代码进行调试  
-![image](https://github.com/user-attachments/assets/0572d8d2-e0e5-492e-9294-14d452f84ec3)
+原本默认的分析深度最大是2，经测试将深度调整为15后并没有深入的分析故将代码进行调试  
+![image](https://github.com/user-attachments/assets/acf0d460-9d41-4553-8046-37bec4ea3e09)
+
 
 原本的只会分析函数，对函数进行分析，并不会分析引用的全局变量，故加入全局变量分析功能  
-![image](https://github.com/user-attachments/assets/5c98869d-7662-44f7-884a-f0f18328c9f6)
+![image](https://github.com/user-attachments/assets/57ff17ec-60d6-43ab-a108-02ca96378a63)
+
 
 根据自己的需求，重写相关提示词  
-![image](https://github.com/user-attachments/assets/2e733d07-eb47-4c55-8911-fc287c5ab039)
+![image](https://github.com/user-attachments/assets/898bcccc-b7aa-4c4c-abc5-8b2c82b8eda0)
 
 其他细节变化不做描述  
 函数及深度分析正常使用  

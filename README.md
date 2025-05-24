@@ -23,6 +23,9 @@
 默认深度分析为15
 ![image](https://github.com/user-attachments/assets/3d3f3d54-f34d-4111-b718-27717398fde3)
 
+询问功能
+![image](https://github.com/user-attachments/assets/c780d117-2557-40d5-874c-8b5ceb438244)
+
 
 
 

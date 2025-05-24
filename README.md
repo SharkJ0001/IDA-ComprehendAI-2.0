@@ -1,5 +1,5 @@
 # IDA-AI ComprehendAI 2.0
-对源项目地址：https://github.com/Kvancy/ComprehendAI  ComprehendAI的二次开发调试
+对源项目地址：https://github.com/Kvancy/ComprehendAI  ComprehendAI的二次开发调试  
 环境：IDA 9.1，python3.13  
 需要将pip install openai进行安装 
 需要修改的配置文件就是config.json文件，换成自己的api即可，url根据情况切换  
@@ -7,8 +7,9 @@
 下载的两个文件要放在IDApro91\plugins插件目录下  
 ![image](https://github.com/user-attachments/assets/2b455f95-82be-49a6-b0b9-d550eec3cd94)
 
-这里使用的是阿里的百炼大模型，因为免费，但是病毒分析会触发阿里账号封禁，客服不给解封只会对不起，使用的时候自己注意吧。  
-![image](https://github.com/user-attachments/assets/4eaa65b9-cb32-48ac-b20b-c8ccc1e1f3d8)
+这里使用的是阿里的百炼大模型，免费100万次，但是病毒分析会触发阿里账号封禁，没办法申诉，客服只会说对不起，使用的时候自己注意吧。  
+![image](https://github.com/user-attachments/assets/854c19c3-d921-4949-a686-640a95c557ac)
+
 
 原本默认的分析深度最大是2，经测试将深度调整为15后并没有深入的分析故将代码进行调试  
 ![image](https://github.com/user-attachments/assets/acf0d460-9d41-4553-8046-37bec4ea3e09)

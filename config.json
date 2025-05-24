@@ -1,7 +1,7 @@
 
 {
     "openai": {
-        "api_key": "sk-a2b60b4c3d33457cbdc1659485bc0b09",
+        "api_key": "sk-",
         "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
         "model": "qwq-32b",
         "max_code_length": 80000, 
